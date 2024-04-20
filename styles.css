@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.item {
+  width: 50px;
+  padding: 50px;
+  margin: 5px;
+  background-color: blue;
+}
+
+.main-container2 {
+  background-color: blue;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+}
+
+.item2 {
+  padding: 50px;
+  background-color: red;
+}
+
+.main-container3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.center-container {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.item3 {
+  background-color: #f1f1f1;
+  width: 10px;
+  margin: 10px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+}
